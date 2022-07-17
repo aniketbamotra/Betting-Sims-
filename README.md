@@ -8,8 +8,8 @@ https://purebet.io/
 
 # Pre-requisite
 
- You must have a version of node.js installed on your machine. 
- You must have a version of Gatsby CLI installed.
+ * You must have a version of node.js installed on your machine. 
+ * You must have a version of Gatsby CLI installed.
 
 # How to run
 
