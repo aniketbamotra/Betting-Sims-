@@ -12,7 +12,7 @@ const Featured = ({ toggleBetSlip }) => {
     setisSliderOpen(true);
     axios
       .get(
-        `https://script.google.com/macros/s/AKfycbwnHC3Apglmz8YADs5Iyw2_W2PbZL_7ytFunadNpBs2OPhMiG9Xyb3RvHnOoVXG0fUu/exec?id2=${id}`
+        `https://script.google.com/macros/s/AKfycbwIB7VRVVFVLyVfKFyPhUsgQZlnnXrv-2bt8fxNrdWEPfAY4FXYc2xRjKO9qaK10Yyj/exec?id2=${id}`
       )
       .then(function (response) {
         setOdds(response.data);
