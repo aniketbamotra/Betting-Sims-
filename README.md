@@ -1,54 +1,32 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Introduction
 
-## 🚀 Quick start
+Purebet is a decentralised, non-custodial betting exchange based on the Solana blockchain, custom built from the ground up to give the optimal betting experience.  Purebet relieves users of the stress of missing deposits, withdrawal delays, and account closures by working seamlessly and permissionlessly on the blockchain. We believe the future of sports betting and prediction markets is community-focused, open-source, permissionless, and immutable. Purebet is designed by sports bettors, for sports bettors to give the simplest and smoothest sports betting experience possible.
 
-1.  **Create a Gatsby site.**
+# Website Link
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+https://purebet.io/
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+# Pre-requisite
 
-2.  **Start developing.**
+ You must have a version of node.js installed on your machine. 
+ You must have a version of Gatsby CLI installed.
 
-    Navigate into your new site’s directory and start it up.
+# How to run
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Clone this repository via github console or by using the command
 
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+```bash
+git clone https://github.com/aniketbamotra/Purebet.git
+```
+Then open the repository folder
+```bash
+cd PureBet
+```
+After that install all the dependancies by running the following command.
+```bash
+npm install
+```
+Now you are ready to start the app on your local machine by running:
+```bash
+gatsby develop
+```
